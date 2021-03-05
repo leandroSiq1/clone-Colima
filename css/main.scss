@@ -1,0 +1,378 @@
+@import 'base';
+
+section.landing-page {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/images/background-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  header {
+    max-width: 1250px;
+
+    margin: 0 auto;
+    padding: 20px 10px 0 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 30px;
+      color: #fff;
+    }
+    
+    nav {
+      display: flex;
+      align-items: center;
+      
+      ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding-right: 50px;
+
+        li {
+          margin-left: 20px;
+          
+          a {
+            font-size: 17px;
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+
+      a.btn {
+        width: 190px;
+        height: 51px;
+        
+        font-weight: bold;
+        color: #fff;
+        text-decoration: none;
+        
+        background: #a8a6a1;
+        border: 1px solid #a8a6a1;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transition: .2s;
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+  }
+
+  main {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0  0 64px 10px;
+
+    h1 {
+      font-size: 65px;
+      font-weight: normal;
+      color: #fff;
+    
+      padding-top: 300px;
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: normal;
+      color: #fff;
+
+      line-height: 35px;
+      padding: 30px 0 40px 0;
+    }
+
+    a {
+      font-size: 24px;
+      color: gray;
+
+      text-decoration: none;
+
+      padding-bottom: 1px;
+      border-bottom: 2px solid gray;
+    }
+
+  }
+
+}
+
+section.next-classes {
+  width: 100%;
+  min-height: calc(100vh + 100px);
+
+  background: #38383b;
+  padding-bottom: 60px;
+
+  h1 {
+    font-size: 45px;
+    padding: 60px 0 0 50px;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 1250px;
+    margin: 30px auto;
+
+    div.container-images {
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 35px;
+      padding: 0 10px 0 10px;
+      
+      div.primary-image {
+        width: 50%;
+        height: 400px;
+
+        font-size: 30px;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        background-image: url('/images/background-aula-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+  
+      div.secondary-image {
+        width: 50%;
+        height: 400px;
+
+        font-size: 30px;
+        color: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        background-image: url('/images/background-aula-2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+    }
+
+    div.description {
+
+      padding-left: 10px;
+      
+      p {
+        font-size: 25px;
+        color: #fff;
+        font-weight: bold;
+        padding: 40px 0 60px 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #fff;
+
+        padding: 20px;
+        background: #a8a6a1;
+        border: 1px solid #a8a6a1;
+        transition: .2s;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
+  }
+}
+
+div.content-info {
+  max-width: 100%;
+  height: 300px;
+
+  
+
+  background: #434347;
+  color: #fff;
+
+  div.container-info {
+    max-width: 1250px;
+    height: 100%;
+
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      font-size: 35px;
+      line-height: 40px;
+    }
+  
+    div.info-group {
+      p {
+        font-size: 18px;
+        line-height: normal;
+        padding-bottom: 50px;
+      }
+
+      a {
+        font-size: 17px;
+        font-weight: bold;
+        color: gray;
+
+        background: #fff;
+        text-decoration: none;
+
+        padding: 20px 40px 20px 40px;
+        transition: .2s;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+      
+    }
+  }
+
+}
+
+section.contact {
+  width: 100%;
+  height: 500px;
+
+  color: #fff;
+  text-align: center;
+
+  background-image: url('/images/background-contact.jpg');
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+
+  h1 {
+    font-size: 30px;
+    font-weight: normal;
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-bottom: 30px;
+  }
+
+  input {
+    width: 270px;
+    height: 70px;
+    
+    padding-left: 20px;
+
+    font-size: 19px;
+  }
+
+  button {
+    width: 160px;
+    height: 70px;
+
+    font-size: 17px;
+    color: #fff;
+
+    background: #a8a6a1;
+    border: #a8a6a1;
+
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+}
+
+footer {
+  width: 100%;
+  height: 220px;
+
+  background: #f5f5f5;
+
+  div.container-footer {
+    max-width: 1250px;
+    height: 100%;
+
+    margin: 0 auto;
+    
+    padding: 0 15px 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div.one {
+      h1 {
+        font-size: 29px;
+        font-weight: normal;
+        padding-bottom: 30px;
+      }
+
+      p {
+        a {
+          text-decoration: none;
+          color: gray;
+          padding-bottom: 1px;
+          border-bottom: 1px solid gray;
+        }
+      }
+    }
+
+    div.location {
+      p {
+        line-height: 25px;
+      }
+    }
+
+    nav {
+      ul {
+        list-style-type: none;
+
+        li {
+          padding-bottom: 10px;
+
+          a {
+            font-size: 17px;
+            text-decoration: none;
+            color: gray;
+            padding-bottom: 1px;
+            border-bottom: 1px solid gray;
+          }
+
+        }
+
+      }
+    }
+
+    div {
+      a { 
+        margin-left: 15px;
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
